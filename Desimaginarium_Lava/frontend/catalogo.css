@@ -1,0 +1,79 @@
+/* Zerar a página */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Fundo e espaço na parte interna dos cartões */
+.card{
+   padding: 15px;
+   background-color: #D6E2E8;
+  
+}
+
+/* Cor de fundo do header */
+.navbar{
+    background-color: #88b8d1;
+}
+
+/* Para a primeira div não ficar embaixo do footer */
+#container1{
+    margin-top: 100px;
+}
+
+/* Para separar do que estiver encima */
+.container{
+    margin-top: 20px;
+}
+
+/* deixar a propaganda no centro */
+#propaganda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ajustar a distancia */
+h2{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/* arrumar o tamanho e posição da logo */
+#logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+ 
+   
+}
+ 
+#logo-header{
+    width: 40;
+    height: 40px;
+    border-radius: 100%;
+}
+
+
+/* arrumar o footer */
+footer{
+    margin-top: 20px;
+    background-color: #88b8d1;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#carrinho{
+    width: 40;
+    height: 40px;
+}
+
+.favoritos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}

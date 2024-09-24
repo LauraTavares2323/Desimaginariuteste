@@ -1,0 +1,19 @@
+{
+  "name": "desimaginarium_lava",
+  "version": "1.0.0",
+  "description": "Desimaginarium: A Desimaginarium é uma loja online de produtos não convencionais, ela envolve desde cascos de tartarugas personalizados até capivaras voadoras de diversas cores. A proposta é vender produtos originais e criativos para pessoas que procuram diversidade.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/serves.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4"
+  }
+}
